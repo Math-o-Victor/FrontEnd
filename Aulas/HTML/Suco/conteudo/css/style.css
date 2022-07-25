@@ -1,0 +1,235 @@
+/*Estilos da pagina index.html do projeto "Sucos"*/
+h2 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 800px;
+    font-size: 60px;
+    font-style: normal;
+    background-image: linear-gradient(#ffff67 20%, #ff3737 40%, #ff48ff 60%, #ffff67 100%);
+    color: rgb(255, 255, 255);
+}
+
+.right{
+justify-content: center;
+}
+
+body {
+    background-image: radial-gradient(bisque, rgb(255, 255, 255));
+    padding: 0px;
+}
+#fala{
+    font-family: 'Comic Neue', cursive; 
+    font-size: 38px;
+    font-weight: 999;
+    transform: rotate(3deg);
+}
+
+.robert{
+    width: 800px;
+    margin-bottom: -80px;
+}
+
+.center {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.container2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: center;
+    align-items: center;
+}
+
+.backfav{
+    background-image: linear-gradient(to top right, rgb(250, 136, 212),bisque);
+}
+
+.container3 {
+    display: flex;
+    flex-flow: column;
+    justify-content: right;
+}
+
+.frutas {
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    background-image: url(../imagens/frutas.gif);
+    -webkit-text-stroke: 1px rgb(51, 28, 0);
+    letter-spacing: -11px;
+}
+
+.problema {
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    background-image:linear-gradient(to bottom, red 0%, orange 15%, yellow 30%,green 45%, blue 60%, indigo 75%,violet 85%, #ff3456 95%, red 100%);
+    -webkit-text-stroke: 1px #ff6767;
+}
+.sofia {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    font-style: italic;
+    color: bisque;
+    background-image: url("uau.gif");
+}
+
+.textomeme {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900px;
+    font-size: 35px;
+    padding-top: 0px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+    color: white;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    vertical-align:middle;
+    background-image: url("../imagens/tomando-suco.jpg");
+    background-size: 80%;
+}
+.texto {
+    font-family:'Kanit', sans-serif;
+    font-weight: 900px;
+    font-size: 85px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    vertical-align:middle;
+}
+
+
+.pad {
+    padding: 0 0 35px 35px;
+    float: right;
+}
+
+.br-10 {
+    border-radius: 10%;
+}
+
+.backsuco {
+    background-image: url(../imagens/sucolento.gif);
+}
+
+.grow{
+    transition: all .1s ease-in;
+}
+.grow:hover{
+    transform: scale(1.1);
+}
+
+.socialclass {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+
+
+#frutas {
+    background-image: linear-gradient(to right, #ffb62d, rgb(255, 96, 34));
+    font-size: 200px;
+    margin-top: 1px;
+    margin-bottom: -180px;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: dotted;
+    font-family: 'Kanit', sans-serif;
+}
+
+#frutas2 {
+    background-image: url(./conteudo/imagens/suco\ e\ frutas.jfif);
+    font-size: 200px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: dotted;
+    font-family: 'Kanit', sans-serif;
+}
+
+#frutas3 {
+    font-size: 200px;
+    margin-top: 1px;
+    margin-bottom: -180px;
+    font-weight: 900;
+    text-align: justify;
+    text-decoration: dotted;
+    font-family: 'Kanit', sans-serif;
+    color: aliceblue;
+}
+
+#menu li {
+    display: inline;
+    padding: 10px;
+
+}
+
+#menu li a {
+    text-decoration: none;
+    text-decoration: dotted;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 900;
+    color: rgb(255, 174, 68);
+}
+
+#menu li a:hover {
+    color: blueviolet;
+}
+
+#titulo {
+    font-size: 365px;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: dotted;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: bisque;
+    letter-spacing: -25px;
+}
+
+#titulo4 {
+    font-size: 250px;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: dotted;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    letter-spacing: -25px;
+}
+
+#titulo2 {
+    font-size: 140px;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: dotted;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: bisque;
+    letter-spacing: -15px;
+    background-image: url(../imagens/soosuco.gif);
+    background-size: 530px;
+}
+
+#titulo3 {
+    font-size: 200px;
+    font-weight: 900;
+    text-align: justify;
+    text-decoration: dotted;
+    font-family: 'Pacifico', cursive;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #ff0000;
+    letter-spacing: 0px;
+    text-orientation: upright;
+}

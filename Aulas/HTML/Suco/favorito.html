@@ -1,21 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seu suco favorito</title>
+    <link rel="stylesheet" href="./conteudo/css/style.css">
 </head>
-<body>
-    <ul>
+
+<body class="backfav">
+    <ul id="menu">
         <li><a href="index.html">Home</a></li>
         <li><a href="lista.html">Lista de frutas</a></li>
         <li><a href="favorito.html">Me conte o seu favorito</a></li>
     </ul>
-    <form>
-        <label for="suco">Seu suco favorito:</label>
-        <textarea name="suco" id="suco" cols="10" rows="5"></textarea>
-        <button>Enviar!</button>
-    </form>
+    <div class="container">
+        <div style="padding: 20px"></form>
+            <form class="container3">
+                <label for="nome">Quem é você?</label>
+                <input type="text" id="nome" cols="15" rows="1" onkeyup="validNome()"></input>
+                <div id="txtNome"></div>
+            </form>
+            <form class="container3">
+    
+                <label for="email">Qual o seu email?</label>
+                <input type="email" id="email" cols="15" rows="1" onkeyup="validEmail()"></input>
+                <div id='txtEmail'></div>
+            </form>
+
+            <form class="container3">
+                <label for="suco">Qual o seu suco favorito e por quê?</label>
+                <input type="text" id="suco" cols="50" rows="5" onkeyup="validaSuco"></textarea>
+                <button>Enviar!</button>
+
+            </form>
+             
+            <div>
+
+                <img src="./conteudo/imagens/juicy.gif" alt="Colocando suco (Gif)">
+            </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div>
+                <a href="https://github.com/Math-o-Victor">
+                    <img class="socialclass" src="./conteudo/imagens/linkedin.png" alt="logo do LinkedIn">
+                </a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/maninhouau/">
+                    <img class="socialclass" src="./conteudo/imagens/instagram.png" alt="logo do Instagram">
+                </a>
+            </div>
+            <div style="text-align:right;">
+                Math Victor, 2022. Todos os direitos reservados e merecidos. &copy Fever Dream Inc. &#128065
+            </div>
+        </div>
+    </footer>
+
+    <script src="./conteudo/js/script.js"></script>
 </body>
+
 </html>
